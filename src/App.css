@@ -164,9 +164,6 @@ ul.js-scroll-nav {
     opacity: .7;
 }
 
-@media (min-width: 1300px) {}
-
-
 @media only screen and (max-width: 1250px) {
   header {
     height: 51px;
