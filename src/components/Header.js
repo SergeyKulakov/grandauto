@@ -17,6 +17,7 @@ export default class Header extends React.Component {
     } 
 
 dropMenu() {
+    document.getElementsByClassName("scroll-menu-background")[0].style.display = 'none';  
     for (let i = 0;i < document.querySelectorAll("ul.js-scroll-nav li").length; i++) {
         document.querySelectorAll("ul.js-scroll-nav li")[i].style.transform = "scale(0)";
     }
