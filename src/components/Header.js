@@ -30,6 +30,7 @@ dropMenu() {
 }
 
 hideMenu() {
+    document.getElementsByClassName("scroll-menu-background")[0].style.display = 'block'; 
     for (let i = 0;i < document.querySelectorAll("ul.js-scroll-nav li").length; i++) {
         document.querySelectorAll("ul.js-scroll-nav li")[i].style.transform = "scale(1)";
     }  
