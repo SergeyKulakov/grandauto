@@ -49,11 +49,11 @@ hideMenu() {
             <div className="scroll-menu">
                 <img className="g-width-235 g-width-225--md d-block scroll-logo" src={logoDark} alt="Grand Auto" data-header-fix-moment-exclude="d-block" data-header-fix-moment-classes="d-none"/>
                 <div>
-                    <div>Мы в соцсетях:</div>
-                    <img src={tele} alt="tele.svg"/>
-                    <img src={viber} alt="viber.svg"/>
-                    <img src={fb} alt="fb.svg"/>
-                    <img src={inst} alt="inst.svg"/>
+                    <div className="social-contacts">Мы в соцсетях:</div>
+                    <a href=""><img src={tele} alt="tele.svg"/></a>
+                    <a href=""><img src={viber} alt="viber.svg"/></a>
+                    <a href=""><img src={fb} alt="fb.svg"/></a>
+                    <a href=""><img src={inst} alt="inst.svg"/></a>
                 </div>
                 <div>
                     <img src={iconfinder} alt="iconfinder_ic_phone_android_48px_352066.svg" />

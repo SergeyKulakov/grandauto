@@ -17,10 +17,10 @@ export default class Header extends React.Component {
                     <div className="line">контакты</div>
                     <div>
                     <div className="line no-full-width icons">
-                        <img src={tele} alt="tele.svg"/>
-                        <img src={viber} alt="viber.svg"/>
-                        <img src={fb} alt="fb.svg"/>
-                        <img src={inst} alt="inst.svg"/>
+                        <a href=""><img src={tele} alt="tele.svg"/></a>
+                        <a href=""><img src={viber} alt="viber.svg"/></a>
+                        <a href=""><img src={fb} alt="fb.svg"/></a>
+                        <a href=""><img src={inst} alt="inst.svg"/></a>
                     </div>
                     <div className="line no-full-width phone">
                         <img src={iconfinder} alt="iconfinder_ic_phone_android_48px_352066.svg" />
