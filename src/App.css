@@ -37,6 +37,10 @@ nav {
   height: 76px;
 }
 
+.social-contacts {
+  margin-right: 16px;
+}
+
 .scroll-menu-button {
   margin: 0 auto;
   margin-left: 32px;
@@ -47,6 +51,11 @@ nav {
   background: #c94645;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.scroll-menu-button:hover {
+  background: #D46C6C;
 }
 
 .scroll-width {
@@ -132,18 +141,33 @@ ul.js-scroll-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 213px; 
-  margin: 40px auto;
+  margin: 29px auto;
+  cursor: context-menu;
 }
 
-.phone {
-  padding-left: 29px;
+.sidebar .icons {
+  margin-top: 32px;
+  width: 213px;
+}
 
+.sidebar .phone {
+  justify-content: space-around;
+  width: 185px;
+  margin-top: 26.7px;
+}
+
+.sidebar .phone img {
+  margin-left: 8.4px;
 }
 
 .menu-button-background {
   width: 100%;
   text-align: center;
+}
+
+.menu-button-background .scroll-menu-button {
+  margin-left: 0;
+  margin-top: -19.4px;
 }
 
 .u-header__section:first-child  {
@@ -156,7 +180,7 @@ ul.js-scroll-nav {
 
 .u-btn-gray:hover {
   color: white;  
-  background: #0C1C2A;
+  background: #334148;
 }
 
 #home:before {
