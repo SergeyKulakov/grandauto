@@ -193,6 +193,10 @@ ul.js-scroll-nav {
     width: 100%;
   } 
 
+  nav {
+    height: 51px;
+  }
+
   nav .container {
     display: flex;
     justify-content: space-between;
@@ -220,10 +224,6 @@ ul.js-scroll-nav {
     display: flex!important;
     justify-content: space-around;
     align-items: center;
-    height: 51px;
-  }
-
-  nav {
     height: 51px;
   }
 
